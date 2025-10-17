@@ -26,7 +26,7 @@ public class Pendencia {
         this.prioridade = prioridade;
     }
 
-    // Getters e Setters
+    
     public int getId() {
         return id;
     }

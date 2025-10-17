@@ -24,11 +24,11 @@ public class PendenciaView {
         System.out.print("Escolha uma opção: ");
         while (!scanner.hasNextInt()) {
             System.out.println("Entrada inválida. Por favor, digite um número.");
-            scanner.next(); // Consome a entrada inválida
+            scanner.next();
             System.out.print("Escolha uma opção: ");
         }
         int opcao = scanner.nextInt();
-        scanner.nextLine(); // Consome a quebra de linha
+        scanner.nextLine();
         return opcao;
     }
 
